@@ -32,6 +32,8 @@ TODO: 基于popoverPresentationController的弹出菜单列表
 
   s.source_files = 'LCMenu/Classes/**/*'
   
+  s.public_header_files = 'LCMenu/Classes/LCMenu.h'
+  
   # s.resource_bundles = {
   #   'LCMenu' => ['LCMenu/Assets/*.png']
   # }
