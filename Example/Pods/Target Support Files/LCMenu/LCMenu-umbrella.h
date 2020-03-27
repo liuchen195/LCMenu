@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LCMenu.h"
 
 FOUNDATION_EXPORT double LCMenuVersionNumber;
 FOUNDATION_EXPORT const unsigned char LCMenuVersionString[];

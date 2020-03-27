@@ -1,5 +1,5 @@
 PODS:
-  - LCMenu (0.1.0)
+  - LCMenu (1.0.0)
 
 DEPENDENCIES:
   - LCMenu (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LCMenu: 090dcf1d9f46e7a4da0801e5048c8b86212056fa
+  LCMenu: 95289fe2347ab8714e573e2c7986f3591ccbb188
 
 PODFILE CHECKSUM: 700bdb1ff48d66eedbaa0d10ca24b3181746c221
 

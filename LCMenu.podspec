@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: 基于popoverPresentationController的弹出菜单列表
                        DESC
 
-  s.homepage         = 'https://github.com/liuchen/LCMenu'
+  s.homepage         = 'https://github.com/liuchen195/LCMenu'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '541102613@qq.com' => 'liuchen195@163.com' }

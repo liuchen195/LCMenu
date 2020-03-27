@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06E628E9A06068F16F1E69F8E29706F6 /* LCMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8E34BA809C054458A390CBD044B995 /* LCMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ED23A24DB09B5D58B92623E7BE150D1 /* LCMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 671281AB1378C73D679CB8D73B768770 /* LCMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B4E67301D35AE218F85C0E911ADE262 /* Pods-LCMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1495D96072D6F063CB073DF369C700D /* Pods-LCMenu_Tests-dummy.m */; };
 		307F17B508A584813EE6C954D7FEA785 /* Pods-LCMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0B84E0533E2A6D7FF5246DF25001EC9 /* Pods-LCMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59CE0127134BE4E851687D01B3D3DC37 /* LCMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E75ACE7CFDDD4F4D9D52F1B15DC7DFDE /* LCMenu-dummy.m */; };
-		60915289242D989000639607 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 60915286242D989000639607 /* .gitkeep */; };
-		6091528A242D989000639607 /* LCMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 60915287242D989000639607 /* LCMenu.h */; };
-		6091528B242D989000639607 /* LCMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 60915288242D989000639607 /* LCMenu.m */; };
-		8197464BB8F4D7092F00E9A1229E4882 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7A737F2E15B9C95C5B6C4CA788D4CA49 /* LCMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E757C01DC3C3DF924DC30B88E209D7 /* LCMenu-dummy.m */; };
 		9A6DF5B51DB607383CB3B1975B0517D0 /* Pods-LCMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5ED9646449D58C17FB59F1ECF97FA02 /* Pods-LCMenu_Example-dummy.m */; };
-		A6358A3B8994E83355C97EB7111DDF95 /* LCMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C91A49127A36A95A486AFCB9360B75 /* LCMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AACEF5A0013C1F73271611DCA6F57CC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		AC249D91592B2B4BD1425A2784840FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B4C581601E075B1CD62DAD6AEA693473 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F1ED2D0B4AEDB72308937298D3F36567 /* Pods-LCMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 560FFECF51331E2441484C5EC7000BD3 /* Pods-LCMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4834548B349E588024F0ACDADA38003 /* LCMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 270122B76AC2B18D78F0A7093690D234 /* LCMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,44 +38,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04C91A49127A36A95A486AFCB9360B75 /* LCMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCMenu-umbrella.h"; sourceTree = "<group>"; };
+		01AD852ED81DDE452A6BD60E0821E9E4 /* LCMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCMenu-prefix.pch"; sourceTree = "<group>"; };
 		05D76A2E72F3D81165CADF8D50247893 /* Pods-LCMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		08F8D3EF37D7479D5FE1D5382E6A2954 /* Pods_LCMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F8D3EF37D7479D5FE1D5382E6A2954 /* Pods_LCMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LCMenu_Example.framework; path = "Pods-LCMenu_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF397CF3614FB382024B8693D304E27 /* Pods-LCMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0E40F7AC7C9F936202FBDF4FCA4F8CF7 /* Pods-LCMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		23C1D4A4630C229AD3C90B7FBD0D6C1F /* LCMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCMenu.debug.xcconfig; sourceTree = "<group>"; };
+		1D3082BB113A9C2ACEE9F6963F6F5112 /* LCMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LCMenu.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		208F9669CEDAD3B87F5D937858A650E0 /* LCMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCMenu.debug.xcconfig; sourceTree = "<group>"; };
+		270122B76AC2B18D78F0A7093690D234 /* LCMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCMenu.m; path = LCMenu/Classes/LCMenu.m; sourceTree = "<group>"; };
 		27802E49FA10BDF447C3C082B36DD14C /* Pods-LCMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2F602805E4E47AD4FDB78C22469210B8 /* Pods-LCMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3880993856E3DEB021BD430D62CC9151 /* LCMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LCMenu-Info.plist"; sourceTree = "<group>"; };
 		41CF2FBF0CC559F7DA515D8D1495F012 /* Pods-LCMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCMenu_Tests.modulemap"; sourceTree = "<group>"; };
-		447355BB7192F0B545DFE668D849512C /* LCMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCMenu-prefix.pch"; sourceTree = "<group>"; };
+		4EFEC9DE106C9AC243547945BE634473 /* LCMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LCMenu.modulemap; sourceTree = "<group>"; };
 		560FFECF51331E2441484C5EC7000BD3 /* Pods-LCMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCMenu_Example-umbrella.h"; sourceTree = "<group>"; };
-		60915286242D989000639607 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		60915287242D989000639607 /* LCMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCMenu.h; sourceTree = "<group>"; };
-		60915288242D989000639607 /* LCMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCMenu.m; sourceTree = "<group>"; };
 		64ED5AF0490DE1F31B5F78C360939714 /* Pods-LCMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		77A1A67FD3E41E4D694512247B99A615 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		7AE532B8DF99A9E64B196208CF20CCC1 /* LCMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LCMenu-Info.plist"; sourceTree = "<group>"; };
+		671281AB1378C73D679CB8D73B768770 /* LCMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCMenu-umbrella.h"; sourceTree = "<group>"; };
+		70E757C01DC3C3DF924DC30B88E209D7 /* LCMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCMenu-dummy.m"; sourceTree = "<group>"; };
 		965B9DB94DE0B512B643B28EC65F6A88 /* Pods-LCMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCMenu_Example.modulemap"; sourceTree = "<group>"; };
+		998D0E5A497A51C679BE51B331C3C39D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9A7E8885474E7AA20AEA8A7CEFD7F796 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9D11E6B8A7F91BABCAA6C52212DBDF0F /* Pods-LCMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD94210BD867E2CBD11C3FF678813080 /* Pods-LCMenu_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCMenu_Tests-Info.plist"; sourceTree = "<group>"; };
 		B1495D96072D6F063CB073DF369C700D /* Pods-LCMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCMenu_Tests-dummy.m"; sourceTree = "<group>"; };
-		B1CBF270BEB2D827176D57570A73DB9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B2E1442546550CFD03234E997225656A /* LCMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCMenu.release.xcconfig; sourceTree = "<group>"; };
 		B332255001922335DBAE10296FDEC184 /* Pods-LCMenu_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCMenu_Example-Info.plist"; sourceTree = "<group>"; };
-		B374906571F5B060E8023CB88D162C0B /* Pods_LCMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C12B2A5FE4A10A4C0E55E31771C6FA65 /* LCMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LCMenu.modulemap; sourceTree = "<group>"; };
-		C2B669FCFF2B27CFB1CCB86E06934A3F /* LCMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LCMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B374906571F5B060E8023CB88D162C0B /* Pods_LCMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LCMenu_Tests.framework; path = "Pods-LCMenu_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B669FCFF2B27CFB1CCB86E06934A3F /* LCMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LCMenu.framework; path = LCMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5ED9646449D58C17FB59F1ECF97FA02 /* Pods-LCMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCMenu_Example-dummy.m"; sourceTree = "<group>"; };
 		CA8E31549D2DE0067B919E9A8F76547E /* Pods-LCMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CA8E34BA809C054458A390CBD044B995 /* LCMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCMenu.h; path = LCMenu/Classes/LCMenu.h; sourceTree = "<group>"; };
 		E0B84E0533E2A6D7FF5246DF25001EC9 /* Pods-LCMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E139457B8AFFB90D899982A85BFFE282 /* LCMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LCMenu.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E75ACE7CFDDD4F4D9D52F1B15DC7DFDE /* LCMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCMenu-dummy.m"; sourceTree = "<group>"; };
 		E914D6613B452C3C7D88306A71687524 /* Pods-LCMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F00F105A61D6A29A435F14A4EDC115F9 /* LCMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCMenu.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		08B86562F8B28B75F01BE08928B69474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACEF5A0013C1F73271611DCA6F57CC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A9CC357AB075DF83063861FA8E06321 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,14 +99,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69E251F6386A5ED75766BA0101A04AEC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8197464BB8F4D7092F00E9A1229E4882 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -113,20 +111,47 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		248CA96C44B89B9C885D4C3BD9B02C72 /* Development Pods */ = {
+		09C9483305AA242EE2CB213FBF5E7F09 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				59B5A275331A408549A3AC1E8B0045AB /* LCMenu */,
+				1925D3EA88BDD3D244D3B12C9DAFDF0B /* LCMenu */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3BA88C5BA481345070E2B5E7DBF04434 /* Pod */ = {
+		0D36C98C241EDA567E7898C2FE62A5EE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E139457B8AFFB90D899982A85BFFE282 /* LCMenu.podspec */,
-				77A1A67FD3E41E4D694512247B99A615 /* LICENSE */,
-				B1CBF270BEB2D827176D57570A73DB9A /* README.md */,
+				4EFEC9DE106C9AC243547945BE634473 /* LCMenu.modulemap */,
+				70E757C01DC3C3DF924DC30B88E209D7 /* LCMenu-dummy.m */,
+				3880993856E3DEB021BD430D62CC9151 /* LCMenu-Info.plist */,
+				01AD852ED81DDE452A6BD60E0821E9E4 /* LCMenu-prefix.pch */,
+				671281AB1378C73D679CB8D73B768770 /* LCMenu-umbrella.h */,
+				208F9669CEDAD3B87F5D937858A650E0 /* LCMenu.debug.xcconfig */,
+				B2E1442546550CFD03234E997225656A /* LCMenu.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LCMenu";
+			sourceTree = "<group>";
+		};
+		1925D3EA88BDD3D244D3B12C9DAFDF0B /* LCMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CA8E34BA809C054458A390CBD044B995 /* LCMenu.h */,
+				270122B76AC2B18D78F0A7093690D234 /* LCMenu.m */,
+				1F9347D90E9DDCFDE264E95D90A271C3 /* Pod */,
+				0D36C98C241EDA567E7898C2FE62A5EE /* Support Files */,
+			);
+			name = LCMenu;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1F9347D90E9DDCFDE264E95D90A271C3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1D3082BB113A9C2ACEE9F6963F6F5112 /* LCMenu.podspec */,
+				9A7E8885474E7AA20AEA8A7CEFD7F796 /* LICENSE */,
+				998D0E5A497A51C679BE51B331C3C39D /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -145,43 +170,6 @@
 			);
 			name = "Pods-LCMenu_Tests";
 			path = "Target Support Files/Pods-LCMenu_Tests";
-			sourceTree = "<group>";
-		};
-		59B5A275331A408549A3AC1E8B0045AB /* LCMenu */ = {
-			isa = PBXGroup;
-			children = (
-				60915285242D989000639607 /* Classes */,
-				3BA88C5BA481345070E2B5E7DBF04434 /* Pod */,
-				724E4EEBE1D2CA1D667EDFAF527AEE36 /* Support Files */,
-			);
-			name = LCMenu;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		60915285242D989000639607 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				60915286242D989000639607 /* .gitkeep */,
-				60915287242D989000639607 /* LCMenu.h */,
-				60915288242D989000639607 /* LCMenu.m */,
-			);
-			name = Classes;
-			path = LCMenu/Classes;
-			sourceTree = "<group>";
-		};
-		724E4EEBE1D2CA1D667EDFAF527AEE36 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C12B2A5FE4A10A4C0E55E31771C6FA65 /* LCMenu.modulemap */,
-				E75ACE7CFDDD4F4D9D52F1B15DC7DFDE /* LCMenu-dummy.m */,
-				7AE532B8DF99A9E64B196208CF20CCC1 /* LCMenu-Info.plist */,
-				447355BB7192F0B545DFE668D849512C /* LCMenu-prefix.pch */,
-				04C91A49127A36A95A486AFCB9360B75 /* LCMenu-umbrella.h */,
-				23C1D4A4630C229AD3C90B7FBD0D6C1F /* LCMenu.debug.xcconfig */,
-				F00F105A61D6A29A435F14A4EDC115F9 /* LCMenu.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LCMenu";
 			sourceTree = "<group>";
 		};
 		9AC843096422DA0780CEC42F154C5585 /* Pods-LCMenu_Example */ = {
@@ -213,7 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				248CA96C44B89B9C885D4C3BD9B02C72 /* Development Pods */,
+				09C9483305AA242EE2CB213FBF5E7F09 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				FCD5DF2322849F941E5CDACF5B643605 /* Products */,
 				09296FD18C80E191ED64E8B7FFDD0100 /* Targets Support Files */,
@@ -241,15 +229,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		59DCE959EC9C9A12BB402D0F963D1998 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6091528A242D989000639607 /* LCMenu.h in Headers */,
-				A6358A3B8994E83355C97EB7111DDF95 /* LCMenu-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9FDF204D8373B5A262BBFCE3529EE377 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,17 +245,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE6AAB07A732B5BCDFCC0B2740727CE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED23A24DB09B5D58B92623E7BE150D1 /* LCMenu-umbrella.h in Headers */,
+				06E628E9A06068F16F1E69F8E29706F6 /* LCMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		196C67563DA7476D0BF68DF79227D781 /* LCMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A72ECD755CB2A738218A08C9070433EB /* Build configuration list for PBXNativeTarget "LCMenu" */;
+			buildConfigurationList = 87FF96A030CCEA0EEA213B6C198BD282 /* Build configuration list for PBXNativeTarget "LCMenu" */;
 			buildPhases = (
-				59DCE959EC9C9A12BB402D0F963D1998 /* Headers */,
-				6D9D848F2DF337B61D5498B783F2237C /* Sources */,
-				69E251F6386A5ED75766BA0101A04AEC /* Frameworks */,
-				7574CDA1613AE5D4EAB3EEDC4258719C /* Resources */,
+				EE6AAB07A732B5BCDFCC0B2740727CE8 /* Headers */,
+				778BAFDA5B245FCF9EF0B2F1233BA0D3 /* Sources */,
+				08B86562F8B28B75F01BE08928B69474 /* Frameworks */,
+				9EC7F244E9EF496ED846B46CA8292F96 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -362,11 +350,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7574CDA1613AE5D4EAB3EEDC4258719C /* Resources */ = {
+		9EC7F244E9EF496ED846B46CA8292F96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60915289242D989000639607 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,12 +367,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6D9D848F2DF337B61D5498B783F2237C /* Sources */ = {
+		778BAFDA5B245FCF9EF0B2F1233BA0D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59CE0127134BE4E851687D01B3D3DC37 /* LCMenu-dummy.m in Sources */,
-				6091528B242D989000639607 /* LCMenu.m in Sources */,
+				7A737F2E15B9C95C5B6C4CA788D4CA49 /* LCMenu-dummy.m in Sources */,
+				F4834548B349E588024F0ACDADA38003 /* LCMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,9 +410,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0196D631130F2A778129754BC5768BB2 /* Debug */ = {
+		20D1C8CE975D95E58751EBCD27E78E48 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23C1D4A4630C229AD3C90B7FBD0D6C1F /* LCMenu.debug.xcconfig */;
+			baseConfigurationReference = 208F9669CEDAD3B87F5D937858A650E0 /* LCMenu.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -439,7 +426,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/LCMenu/LCMenu-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LCMenu/LCMenu-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LCMenu/LCMenu.modulemap";
 				PRODUCT_MODULE_NAME = LCMenu;
@@ -521,38 +508,6 @@
 			};
 			name = Debug;
 		};
-		498C065267EA4CF069C303E3F9EAF74A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F00F105A61D6A29A435F14A4EDC115F9 /* LCMenu.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LCMenu/LCMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LCMenu/LCMenu-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LCMenu/LCMenu.modulemap";
-				PRODUCT_MODULE_NAME = LCMenu;
-				PRODUCT_NAME = LCMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -606,9 +561,42 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		76953553393E75F776993D05AB68A47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2E1442546550CFD03234E997225656A /* LCMenu.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LCMenu/LCMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LCMenu/LCMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LCMenu/LCMenu.modulemap";
+				PRODUCT_MODULE_NAME = LCMenu;
+				PRODUCT_NAME = LCMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -755,11 +743,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A72ECD755CB2A738218A08C9070433EB /* Build configuration list for PBXNativeTarget "LCMenu" */ = {
+		87FF96A030CCEA0EEA213B6C198BD282 /* Build configuration list for PBXNativeTarget "LCMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0196D631130F2A778129754BC5768BB2 /* Debug */,
-				498C065267EA4CF069C303E3F9EAF74A /* Release */,
+				20D1C8CE975D95E58751EBCD27E78E48 /* Debug */,
+				76953553393E75F776993D05AB68A47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
