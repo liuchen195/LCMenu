@@ -25,7 +25,7 @@ TODO: 基于popoverPresentationController的弹出菜单列表
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '541102613@qq.com' => 'liuchen195@163.com' }
-  s.source           = { :git => 'https://github.com/liuchen/LCMenu.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/liuchen195/LCMenu.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
