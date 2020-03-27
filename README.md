@@ -22,7 +22,7 @@ pod 'LCMenu'
 
 ## Author
 
-541102613@qq.com, liuchen@zjhcsoft.com
+541102613@qq.com
 
 ## License
 

@@ -1,0 +1,22 @@
+{
+  "name": "LCMenu",
+  "version": "0.1.0",
+  "summary": "A short description of LCMenu.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/541102613@qq.com/LCMenu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "541102613@qq.com": "liuchen@zjhcsoft.com"
+  },
+  "source": {
+    "git": "https://github.com/541102613@qq.com/LCMenu.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LCMenu/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module LCMenu {
+  umbrella header "LCMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

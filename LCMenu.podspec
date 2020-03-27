@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LCMenu'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of LCMenu.'
+  s.version          = '1.0.0'
+  s.summary          = '基于popoverPresentationController的弹出菜单列表'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 基于popoverPresentationController的弹出菜单列表
                        DESC
 
-  s.homepage         = 'https://github.com/541102613@qq.com/LCMenu'
+  s.homepage         = 'https://github.com/liuchen/LCMenu'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '541102613@qq.com' => 'liuchen@zjhcsoft.com' }
-  s.source           = { :git => 'https://github.com/541102613@qq.com/LCMenu.git', :tag => s.version.to_s }
+  s.author           = { '541102613@qq.com' => 'liuchen195@163.com' }
+  s.source           = { :git => 'https://github.com/liuchen/LCMenu.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'LCMenu/Classes/**/*'
   
