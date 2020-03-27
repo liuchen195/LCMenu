@@ -10,8 +10,9 @@
 		2B4E67301D35AE218F85C0E911ADE262 /* Pods-LCMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1495D96072D6F063CB073DF369C700D /* Pods-LCMenu_Tests-dummy.m */; };
 		307F17B508A584813EE6C954D7FEA785 /* Pods-LCMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0B84E0533E2A6D7FF5246DF25001EC9 /* Pods-LCMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59CE0127134BE4E851687D01B3D3DC37 /* LCMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E75ACE7CFDDD4F4D9D52F1B15DC7DFDE /* LCMenu-dummy.m */; };
-		60915283242D953F00639607 /* LCMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 60915281242D953F00639607 /* LCMenu.h */; };
-		60915284242D953F00639607 /* LCMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 60915282242D953F00639607 /* LCMenu.m */; };
+		60915289242D989000639607 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 60915286242D989000639607 /* .gitkeep */; };
+		6091528A242D989000639607 /* LCMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 60915287242D989000639607 /* LCMenu.h */; };
+		6091528B242D989000639607 /* LCMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 60915288242D989000639607 /* LCMenu.m */; };
 		8197464BB8F4D7092F00E9A1229E4882 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9A6DF5B51DB607383CB3B1975B0517D0 /* Pods-LCMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5ED9646449D58C17FB59F1ECF97FA02 /* Pods-LCMenu_Example-dummy.m */; };
 		A6358A3B8994E83355C97EB7111DDF95 /* LCMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C91A49127A36A95A486AFCB9360B75 /* LCMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,8 +51,9 @@
 		41CF2FBF0CC559F7DA515D8D1495F012 /* Pods-LCMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCMenu_Tests.modulemap"; sourceTree = "<group>"; };
 		447355BB7192F0B545DFE668D849512C /* LCMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCMenu-prefix.pch"; sourceTree = "<group>"; };
 		560FFECF51331E2441484C5EC7000BD3 /* Pods-LCMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCMenu_Example-umbrella.h"; sourceTree = "<group>"; };
-		60915281242D953F00639607 /* LCMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCMenu.h; sourceTree = "<group>"; };
-		60915282242D953F00639607 /* LCMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCMenu.m; sourceTree = "<group>"; };
+		60915286242D989000639607 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		60915287242D989000639607 /* LCMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCMenu.h; sourceTree = "<group>"; };
+		60915288242D989000639607 /* LCMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCMenu.m; sourceTree = "<group>"; };
 		64ED5AF0490DE1F31B5F78C360939714 /* Pods-LCMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		77A1A67FD3E41E4D694512247B99A615 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7AE532B8DF99A9E64B196208CF20CCC1 /* LCMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LCMenu-Info.plist"; sourceTree = "<group>"; };
@@ -148,13 +150,23 @@
 		59B5A275331A408549A3AC1E8B0045AB /* LCMenu */ = {
 			isa = PBXGroup;
 			children = (
-				60915281242D953F00639607 /* LCMenu.h */,
-				60915282242D953F00639607 /* LCMenu.m */,
+				60915285242D989000639607 /* Classes */,
 				3BA88C5BA481345070E2B5E7DBF04434 /* Pod */,
 				724E4EEBE1D2CA1D667EDFAF527AEE36 /* Support Files */,
 			);
 			name = LCMenu;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		60915285242D989000639607 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				60915286242D989000639607 /* .gitkeep */,
+				60915287242D989000639607 /* LCMenu.h */,
+				60915288242D989000639607 /* LCMenu.m */,
+			);
+			name = Classes;
+			path = LCMenu/Classes;
 			sourceTree = "<group>";
 		};
 		724E4EEBE1D2CA1D667EDFAF527AEE36 /* Support Files */ = {
@@ -233,7 +245,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60915283242D953F00639607 /* LCMenu.h in Headers */,
+				6091528A242D989000639607 /* LCMenu.h in Headers */,
 				A6358A3B8994E83355C97EB7111DDF95 /* LCMenu-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60915289242D989000639607 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59CE0127134BE4E851687D01B3D3DC37 /* LCMenu-dummy.m in Sources */,
-				60915284242D953F00639607 /* LCMenu.m in Sources */,
+				6091528B242D989000639607 /* LCMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
