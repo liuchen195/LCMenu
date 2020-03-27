@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LCMenu_Example' do
+  pod 'LCMenu', :path => '../'
+
+  target 'LCMenu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
